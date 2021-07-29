@@ -1,0 +1,39 @@
+#: include 'pages/breakfast_view.kv'
+
+<HomePage>:
+    MDFloatLayout:
+        NineBackgroung:
+    MDBoxLayout:
+        orientation: 'vertical'
+        NineHeader:
+            text: 'Recipes'
+            icon: 'magnify'
+        MDBoxLayout:
+            orientation: 'vertical'
+            ScrollView:
+                do_scroll_y: False
+                height: '40dp'
+                size_hint_y: None
+                NineTab:
+                    view: view
+                    rows: 1
+                    adaptive_width: True
+                    NineTabItem:
+                        text: 'Breakfast'
+                        on_parent: self.parent.select_node(self)
+                    NineTabItem:
+                        text: 'Lunch'
+                    NineTabItem:
+                        text: 'Dinner'
+                    NineTabItem:
+                        text: 'Popular'
+            ScreenManager:
+                id: view
+                BreakFastView:
+                    name: 'breakfast'
+                LunchView:
+                    name: 'lunch'
+                DinnerView:
+                    name: 'dinner'
+                PopularView:
+                    name: 'popular'

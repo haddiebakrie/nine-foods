@@ -1,0 +1,21 @@
+{
+    "name" : "",
+    "cuisine" : "",
+    "prep_time" : "",
+    "cook_time" : "",
+    "total_time" : "",
+    "Description": "",
+    "tag" : "",
+    "images" : "",
+    "ingredients" : [
+        {
+            "quantity" : "",
+            "name": ""
+        }
+
+    ],
+    "Direction" : [
+        ""
+    ]
+
+}
