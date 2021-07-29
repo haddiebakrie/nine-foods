@@ -1,0 +1,24 @@
+{
+    "name" : "",
+    "cuisine" : "",
+    "prep_time" : "",
+    "cook_time" : "",
+    "total_time" : "",
+    "description": "",
+    "tag" : "",
+    "images" : "",
+    "keyword": "",
+    "serving" : "",
+    "difficulty" : "",
+    "ingredients" : [
+        {
+            "quantity" : "",
+            "name": ""
+        }
+
+    ],
+    "Direction" : [
+        ""
+    ]
+
+}
